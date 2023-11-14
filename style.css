@@ -1,0 +1,45 @@
+
+.background{
+    background-color: hsl(207, 93%, 84%);
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    background-color: white;
+    border-radius: 12px;
+    width: 200px;
+    padding: 13px 10px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.qr-code{
+    height: 180px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.text{
+    text-align: center;
+}
+
+.title{
+    font-size: 15px;
+    font-family: Outfit;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+
+.description{
+    font-size: 12px;
+    font-family: Outfit;
+    font-weight: thin;    
+    color: hsl(212, 45%, 89%);
+    
+} 
